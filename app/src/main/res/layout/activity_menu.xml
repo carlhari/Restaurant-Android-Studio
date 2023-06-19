@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <app.num.numandroidpagecurleffect.PageCurlView
+        android:id="@+id/pagecurl_view1"
+        android:layout_width="381dp"
+        android:layout_height="125dp"
+        android:contentDescription="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562"
+        tools:ignore="MissingConstraints" />
+
+    <app.num.numandroidpagecurleffect.PageCurlView
+        android:id="@+id/pagecurl_view2"
+        android:layout_width="381dp"
+        android:layout_height="125dp"
+        android:contentDescription="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.869"
+        tools:ignore="MissingConstraints" />
+
+    <app.num.numandroidpagecurleffect.PageCurlView
+        android:id="@+id/pagecurl_view3"
+        android:layout_width="381dp"
+        android:layout_height="125dp"
+        android:contentDescription="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.257"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnC1"
+        android:layout_width="79dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="52dp"
+        android:background="#FFB84C"
+        android:fontFamily="@font/chelsea_market"
+        android:text="Nigiri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnC2"
+        android:layout_width="88dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="52dp"
+        android:background="#FFB84C"
+        android:fontFamily="@font/chelsea_market"
+        android:text="Raw"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnC3"
+        android:layout_width="117dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="52dp"
+        android:background="#FFB84C"
+        android:fontFamily="@font/chelsea_market"
+        android:text="Secret Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:background="#FFB84C"
+        android:fontFamily="@font/lemon"
+        android:text="Back"
+        android:textColor="#121111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/categoryheader"
+        android:layout_width="279dp"
+        android:layout_height="28dp"
+        android:fontFamily="@font/bungee"
+        android:includeFontPadding="false"
+        android:text="MENU"
+        android:textAlignment="center"
+        android:textColor="#FFB84C"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

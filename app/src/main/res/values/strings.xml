@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RestaurantMenu</string>
+    <string name="nothing">nothing</string>
+    <string name="button">Button</string>
+</resources>
